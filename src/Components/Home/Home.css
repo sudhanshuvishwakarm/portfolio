@@ -1,0 +1,44 @@
+.home{
+    /* background-image: url(https://static.vecteezy.com/system/resources/previews/001/987/871/non_2x/abstract-black-stripes-diagonal-background-free-vector.jpg); */
+    /* background-image: url(https://i.pinimg.com/736x/6e/e1/91/6ee19142a58f28b93766a9f44663a540.jpg); */
+    background-image: url(https://getwallpapers.com/wallpaper/full/f/3/c/1425380-new-s7-edge-wallpapers-1080x1920-xiaomi.jpg);
+    /* opacity: 0.9 black; */
+    background-size: 100%;
+    background-attachment: fixed;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width:800px){
+    .home{
+        background-image: url(https://wallpapercave.com/wp/7qOwD8U.jpg);
+        height:670px;
+        background-repeat: no-repeat;
+        background-size: stretch;
+    }
+    
+}
+.arow{
+    animation: bounce 2s infinite;
+    text-shadow: 0px 5px 10px rgb(177, 224, 221);
+}
+
+@keyframes bounce{
+    0%{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-20);
+        
+    }
+    60%{
+        transform: translateY(-10);
+        
+    }
+    100%{
+        transform: translateY(0);
+
+    }
+}
