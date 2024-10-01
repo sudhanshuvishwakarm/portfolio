@@ -23,11 +23,7 @@ export default function Home() {
         spy={true}
         smooth={true}
         offset={-50}
-        duration={1000} ><i className="arow cursor-pointer relative fa fa-chevron-down xs:top-[60px] md:top-[100px] md:text-5xl text-3xl" ></i></Link>
-
-
-
-
+        duration={1000}  ><i className="arow cursor-pointer relative fa fa-chevron-down xs:top-[60px] md:top-[100px] md:text-5xl text-3xl" ></i></Link>
     </div>
   )
 }
