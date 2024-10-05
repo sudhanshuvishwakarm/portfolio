@@ -17,7 +17,7 @@ export default function Navbar() {
            
           </button>:window.innerWidth<640 && <i className="px-2 text-4xl text-white fa-solid fa-xmark"></i>}
         </div>
-         <img className="md:h-[50px] xs:h-[40px] my-auto text-2xl font-semibold text-white md:mx-2" src="./Images/sv-high-resolution-logo-transparent.png" alt="Error"/> 
+         <img className="md:h-[50px] xs:h-[40px] my-auto text-2xl font-semibold text-white md:mx-2" src="/Images/sv-high-resolution-logo-transparent.png" alt="Error"/> 
        {state &&  <ul className="ml-auto text-white sm:flex" id='navElement' data-aos="fade-left">
 
 <li   className="mx-2 cursor-pointer hover:underline"><Link to="home"
