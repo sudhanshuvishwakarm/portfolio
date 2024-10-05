@@ -12,7 +12,7 @@ export default function About() {
         <div className="flex items-center justify-center gap-10 md:w-[1100px] md:mx-[500px] md:container xs:flex-col md:flex md:flex-row">
           <img data-aos="fade-right"
               data-aos-duration="1000"
-              data-aos-once="true" className='md:h-[350px] xs:h-[250px] md:px-0 xs:px-5 w-auto' src="/Images/IMG-20231219-WA0003.jpg" alt="#" />
+              data-aos-once="true" className='md:h-[350px] xs:h-[250px] md:px-0 xs:px-5 w-auto' src="./Images/IMG-20231219-WA0003.jpg" alt="#" />
         <p data-aos="fade-left"
               data-aos-duration="1000"
               data-aos-once="true" className=" px-6 font-normal lg:text-[14pt] lg:leading-[24pt]  md:text-[14pt] md:leading-[20pt] text-[12pt] leading-[16pt]">I'm a Frontend Web Developer building the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section.
